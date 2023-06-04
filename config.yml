@@ -1,0 +1,34 @@
+baseURL: ""
+languageCode: en-us
+title: rv4102
+theme: PaperMod
+
+params:
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  homeInfoParams:
+    Title: "Hello, world!"
+    Content: "Hey there, you've reached the website of Rushil Venkateswar. Start [here](/posts/first/) to know the origin of this website."
+  socialIcons:
+    - name: Twitter
+      url: "https://twitter.com/rushilv4102"
+    - name: Instagram
+      url: "https://instagram.com/rv1402"
+    - name: Github
+      url: "https://github.com/rv4102"
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: interests
+      name: Interests
+      url: /interests/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10

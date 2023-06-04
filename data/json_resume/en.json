@@ -1,0 +1,184 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Rushil Venkateswar",
+    "label": "Programmer",
+    "image": "https://hugo-theme-gruvbox.schnerring.net/richard-hendricks.webp",
+    "email": "rushilv14@gmail.com",
+    "phone": "+91 8789309659",
+    "summary": "I'm an enthusiastic and hard-working individual, capable of undertaking responsibilities head-on and completing them on time. Problem solving and mathematics are two things that allure me, which is reflected in the fields that I have tried to explore, i.e. ML, DL and Competitive Programming. Through the coursework at CSE IITKgp, I am becoming proficient at learning new concepts in a short duration of time and at programming. To conclude, I look forward to working with firms and learning more about my interests and accomplishing our common goals.",
+    "location": {
+      "city": "Jamshedpur"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "url": "https://twitter.com/rushilv4102/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/rv4102/"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rushilv4102/"
+      },
+      {
+        "network": "Facebook",
+        "url": "https://www.facebook.com/rushilv4102/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ISRO",
+      "location": "Jamshedpur, India",
+      "description": "Semantic Segmentation of Remote Sensing Images",
+      "position": "Research Intern",
+      "startDate": "2022-04",
+      "endDate": "2022-12",
+      "summary": "Created a lightweight Tensorflow model based on U-Net architecture for semantic segmentation.",
+      "highlights": [
+        "Studied existing literature on CNNs, deep learning and their usage in the remote sensing context.",
+        "Using the Tensorflow framework, built a U-Net like model with improved performance and a fraction of the number of parameters as the original U-Net.",
+        "Created various other scripts to perform inference on variable sized images. Tested on Indian context images taken from Google Earth."
+      ]
+    },
+    {
+      "name": "Inter-IIT Tech Meet 11.0",
+      "location": "Kharagpur, India",
+      "description": "The Chandrayaan Moon Mapping Challenge",
+      "position": "Team Member",
+      "startDate": "2023-01",
+      "endDate": "2023-02",
+      "summary": "Part of the solo gold-winning team, representing IIT Kharagpur in the 11th edition of Inter-IIT Tech Meet.",
+      "highlights": [
+        "Worked on extraction of overlapping data between TMC-2 and OHRC images.",
+        "As part of the DL team, we implemented a Lunar Turing GAN model."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Student Welfare Group",
+      "position": "Mentor",
+      "url": "https://www.facebook.com/SWGIITKGP/",
+      "startDate": "2023-01",
+      "summary": "Guiding a group of 3 first-year students and helping them academically and otherwise."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indian Institute of Techonology, Kharagpur",
+      "url": "http://iitkgp.ac.in/",
+      "area": "Computer Science & Engineering",
+      "studyType": "Integrated Dual Degree",
+      "startDate": "2020-12",
+      "endDate": "2025-08",
+      "score": "8.79",
+      "courses": ["CS31202 - Operating Systems", "CS31204 - Networks", "CS31003 - Compilers", "CS31007 - Computer Organisation & Architecture"]
+    },
+    {
+      "institution": "Little Flower School, Jamshedpur",
+      "url": "https://lfsjamshedpur.com/",
+      "area": "ISC - Science",
+      "studyType": "High School",
+      "startDate": "2018-03",
+      "endDate": "2020-03",
+      "score": "96.25",
+      "courses": ["Physics", "Chemistry", "Mathematics", "Computer Science"]
+    },
+    {
+      "institution": "Little Flower School, Jamshedpur",
+      "url": "https://lfsjamshedpur.com/",
+      "area": "ICSE - Science",
+      "studyType": "Secondary School",
+      "startDate": "2007-03",
+      "endDate": "2018-03",
+      "score": "95.40",
+      "courses": ["Science", "HCG", "English", "Mathematics", "Computer Science"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Optiver Winter School",
+      "date": "2023-01",
+      "awarder": "IIT Delhi",
+      "summary": "Selected for the Winter School out of 3000 IITians."
+    },
+    {
+      "title": "Inter-IIT Tech Meet 11.0",
+      "date": "2023-02",
+      "awarder": "IIT Kanpur",
+      "summary": "Won the gold medal in the Chandrayaan Moon Mapping Challenge."
+    }
+  ],
+  "publications": [
+    {}
+  ],
+  "certificates": [
+    {}
+  ],
+  "skills": [
+    {
+      "name": "Deep Learning",
+      "level": "Proficient",
+      "keywords": ["Tensorflow", "PyTorch", "Python"]
+    },
+    {
+      "name": "Web Development",
+      "level": "Novice",
+      "keywords": ["HTML", "CSS", "Javascript", "React", "NodeJS"]
+    },
+    {
+      "name": "Mathematics",
+      "level": "Proficient",
+      "keywords": ["Calculus", "Linear Algebra", "Probability & Statistics"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sketching/Art",
+      "keywords": ["Anime"]
+    },
+    {
+      "name": "Sports",
+      "keywords": ["Snooker", "Football", "Badminton"]
+    }
+  ],
+  "references": [
+    {}
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "roles": ["Team lead", "Designer"],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
