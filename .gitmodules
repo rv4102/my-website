@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/rv4102/rv4102.github.io.git
+	branch = main
