@@ -1,34 +1,104 @@
-baseURL: "https://rv4102.github.io/"
-languageCode: en-us
-title: rv4102
+baseURL: "https://rv4102.github.io/" 
+title: Rushil Venkateswar
+paginate: 20
 theme: PaperMod
 
-params:
-  ShowBreadCrumbs: true
-  ShowReadingTime: true
-  ShowPostNavLinks: true
-  homeInfoParams:
-    Title: "Hello, world!"
-    Content: "Hey there, you've reached the website of Rushil Venkateswar. Start [here](/posts/first/) to know the origin of this website."
-  socialIcons:
-    - name: Twitter
-      url: "https://twitter.com/rushilv4102"
-    - name: Instagram
-      url: "https://instagram.com/rv1402"
-    - name: Github
-      url: "https://github.com/rv4102"
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
 
 menu:
-  main:
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 10
-    - identifier: interests
-      name: Interests
-      url: /interests/
-      weight: 20
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 10
+    main:
+        - name: Projects
+          url: projects/
+          weight: 2
+        - name: Interests
+          url: interests/
+          weight: 3
+        - name: Blog
+          url: blog/
+          weight: 6
+
+params:
+    description: "As a focused, goal-driven individual I like to ensure that I any project or work that I undertake is done to perfection. I enjoy problem solving and have experience working on LLMs and deep learning."
+    author: false
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: dark
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: true
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: false
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["projects","interests","blog"]
+    ShowToc: true
+    disableScrollToTop: false
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Rushil Venkateswar
+          subtitle: "As a focused, goal-driven individual I like to ensure that I any project or work that I undertake is done to perfection. I enjoy problem solving and have experience working on LLMs and deep learning."
+          imageUrl: "profile_photo.jpg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Rushil Venkateswar
+          buttons:
+            - name: Projects
+              url: projects/
+            - name: Interests
+              url: interests/
+            - name: Blog
+              url: blog/
+
+    socialIcons:
+        - name: CV
+          url: style4.pdf
+        - name: Email
+          url: mailto:rushilv14@gmail.com
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
+        # - name: Google Scholar
+        #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: GitHub
+          url: https://github.com/rv4102
+        - name: YouTube
+          url: https://www.youtube.com/@rushilv4102
+        - name: Twitter
+          url: https://twitter.com/rushilv4102
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Rushil Venkateswar"
+    #   icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
